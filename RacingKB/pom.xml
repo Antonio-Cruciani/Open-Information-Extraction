@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.uniroma2.groupBCS</groupId>
+  <artifactId>RacingKB</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <description>racing</description>
+    <properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<corenlp.version>3.9.2</corenlp.version>
+		<log4j.version>1.7.12</log4j.version>
+	</properties>
+	<!-- Dipendenze necessarie all'uso di Stanford CoreNLP (vedi https://stanfordnlp.github.io/CoreNLP/download.html) -->
+  
+  <dependencies>
+
+		<dependency>
+			<groupId>edu.stanford.nlp</groupId>
+			<artifactId>stanford-corenlp</artifactId>
+			<version>3.9.2</version>
+		</dependency>
+		<!-- Dipendenze per ottenere i modelli (sono JAR di alcune centinaia di 
+			MB: può essere richiesto del tempo per scaricarle) -->
+		<dependency>
+			<groupId>edu.stanford.nlp</groupId>
+			<artifactId>stanford-corenlp</artifactId>
+			<version>3.9.2</version>
+			<classifier>models-english</classifier>
+		</dependency>
+		<dependency>
+			<groupId>edu.stanford.nlp</groupId>
+			<artifactId>stanford-corenlp</artifactId>
+			<version>3.9.2</version>
+			<classifier>models-english-kbp</classifier>
+		</dependency>
+	<!--  rdf4j-->
+		<dependency>
+  <groupId>org.eclipse.rdf4j</groupId>
+  <artifactId>rdf4j-runtime</artifactId>
+              <version>2.4.2</version>
+                </dependency>
+              
+  <dependency>
+  
+	  <!-- jsoup HTML parser library @ https://jsoup.org/ -->
+	  <groupId>org.jsoup</groupId>
+	  <artifactId>jsoup</artifactId>
+	  <version>1.11.3</version>
+   </dependency>
+   <dependency>
+    <groupId>info.debatty</groupId>
+    <artifactId>java-lsh</artifactId>
+    <version>RELEASE</version>
+   </dependency>
+    <dependency>
+      <groupId>org.deeplearning4j</groupId>
+      <artifactId>deeplearning4j-core</artifactId>
+      <version>1.0.0-beta3</version>
+  </dependency>
+  <dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+    
+    </dependency>
+    
+
+    
+    
+</dependencies>
+
+
+
+</project>

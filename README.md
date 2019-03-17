@@ -15,3 +15,4 @@ It's composed by:
       
       5) GUI
 
+![alt text](https://raw.githubusercontent.com/Antonio-Cruciani/Open-Information-Extraction/arch.png)

@@ -23,7 +23,7 @@ import edu.stanford.nlp.ie.util.RelationTriple;
 
 public  class AggiornamentoRDF {
 	
-	 static String kbfile = "KGracingPROVA";
+	 static String kbfile = "KGracing";
 
 	public static void updateFileRDF(Collection<RelationTriple> triples, String contesto) throws RDFParseException, UnsupportedRDFormatException, IOException {
 		

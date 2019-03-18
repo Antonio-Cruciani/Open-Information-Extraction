@@ -1,5 +1,5 @@
 # Open-Information-Extraction
-Project for the course of open information extraction.
+Project for the course of Artificial Intelligence .
 Our goal is to use OIE techniques to create a knowledge graph.
 We applied our system on a sports automotive domain. Clearly it can be extended to any other domain.
 This is a java based OIE system.

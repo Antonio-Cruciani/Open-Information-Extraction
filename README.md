@@ -1,3 +1,9 @@
+# Knowledge Graph Racing
+
+<img src="https://github.com/Antonio-Cruciani/Open-Information-Extraction/blob/master/logo.png?v=3&s=200" title="KG Racing" alt="KG Racing" height=356 width=386>
+
+
+
 # Open-Information-Extraction
 Project for the course of Artificial Intelligence .
 Our goal is to use OIE techniques to create a knowledge graph.
@@ -15,4 +21,5 @@ It's composed by:
       
       5) GUI
 
-![alt text](https://raw.githubusercontent.com/Antonio-Cruciani/Open-Information-Extraction/arch.png)
+# Architecture
+<img src="https://github.com/Antonio-Cruciani/Open-Information-Extraction/blob/master/arch.png" title="KG Racing" alt="KG Racing" height=350 width=631>
